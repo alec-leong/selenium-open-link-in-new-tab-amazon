@@ -1,5 +1,11 @@
 # selenium-open-link-in-new-tab-amazon
 
+## Demo
+
+&ensp;&ensp;&ensp;&ensp;[YouTube](https://www.youtube.com/watch?v=2QSadGMtE7g)
+
+![Demo](amazon-demo.gif)
+
 ## Supported Operating Systems
 
 * Linux
