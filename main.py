@@ -24,9 +24,15 @@ for anchor in anchors:
             ActionChains(driver).move_to_element(anchor).perform()
             anchor.send_keys(Keys.CONTROL, Keys.ENTER)
         except MoveTargetOutOfBoundsException as e:  # Disability Customer Support
+            # Screenshot invisible element.
+            driver.save_screenshot('screenshot-invisible-disability-customer-support-anchor.png')
+
             # Element visible.
             driver.execute_script('document.querySelector(\'a[aria-label="Click to call our Disability Customer Support'
                                   ' line, or reach us directly at 1-888-283-1678"]\').className = "nav-a"')
+            # Screenshot visible element.
+            driver.save_screenshot('screenshot-visible-disability-customer-support-anchor.png')
+
             # Open link in new tab.
             anchor.send_keys(Keys.CONTROL, Keys.ENTER)
 
