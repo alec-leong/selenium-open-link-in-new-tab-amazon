@@ -6,6 +6,16 @@
 
 ![Demo](amazon-demo.gif)
 
+## Selenium Screenshot
+
+### 1. Invisible Disability Customer Support Anchor Element
+
+![screenshot-invisible-disability-customer-support-anchor.png](screenshot-invisible-disability-customer-support-anchor.png)
+
+### 2. Visible Disability Customer Support Anchor Element
+
+![screenshot-visible-disability-customer-support-anchor.png](screenshot-visible-disability-customer-support-anchor.png)
+
 ## Supported Operating Systems
 
 * Linux
